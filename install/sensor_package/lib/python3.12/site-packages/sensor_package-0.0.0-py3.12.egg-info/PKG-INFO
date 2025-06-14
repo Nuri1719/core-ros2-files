@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sensor-package
+Version: 0.0.0
+Summary: ROS 2 öğrenmek için örnek sensör paketi
+Maintainer: developer
+Maintainer-email: test@test.com
+License: Apache-2.0

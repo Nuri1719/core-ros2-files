@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/sensor_package/sensor_package.egg-info
+writing ../../build/sensor_package/sensor_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_package/sensor_package.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_package/sensor_package.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_package/sensor_package.egg-info/requires.txt
+writing top-level names to ../../build/sensor_package/sensor_package.egg-info/top_level.txt
+writing manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build
+creating /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib
+creating /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package
+copying sensor_package/temperature_service.py -> /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package
+copying sensor_package/__init__.py -> /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package
+copying sensor_package/temperature_subscriber.py -> /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package
+copying sensor_package/temperature_publisher.py -> /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package
+running install
+running install_lib
+creating /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package
+copying /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package/temperature_service.py -> /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package
+copying /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package/__init__.py -> /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package
+copying /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package/temperature_subscriber.py -> /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package
+copying /home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/build/lib/sensor_package/temperature_publisher.py -> /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package
+byte-compiling /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package/temperature_service.py to temperature_service.cpython-312.pyc
+byte-compiling /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package/temperature_subscriber.py to temperature_subscriber.cpython-312.pyc
+byte-compiling /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package/temperature_publisher.py to temperature_publisher.cpython-312.pyc
+running install_data
+creating /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/share/ament_index
+creating /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/share/ament_index/resource_index
+creating /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/share/ament_index/resource_index/packages
+copying resource/sensor_package -> /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/share/sensor_package
+running install_egg_info
+Copying ../../build/sensor_package/sensor_package.egg-info to /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/python3.12/site-packages/sensor_package-0.0.0-py3.12.egg-info
+running install_scripts
+Installing temperature_publisher script to /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/sensor_package
+Installing temperature_service script to /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/sensor_package
+Installing temperature_subscriber script to /home/cnosmn/Desktop/ros2_sensor_ws/install/sensor_package/lib/sensor_package
+writing list of installed files to '/home/cnosmn/Desktop/ros2_sensor_ws/build/sensor_package/install.log'
